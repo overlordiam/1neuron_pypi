@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 USER_NAME = "overlordiam"
-PROJECT_NAME = "1neuron_pypi"
+PROJECT_NAME = "oneNeuron_pypi"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
